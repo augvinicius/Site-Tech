@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600;800;900&family=Oswald:wght@200;300;400;500&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-image: linear-gradient(270deg, #30cfd0 0%, #330867 100%);
+}
+
+.navegacao {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.logo {
+    flex: 15%;
+    margin-left: 10%;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #330867;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: white;
+
+}
+
+.menu {
+    flex: 65%;
+    margin-right: 10%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#btn {
+    background-color: #330867;
+    border-radius: 8px;
+    padding: 8px 15px;
+}
+
+#btn:hover {
+    color: #30cfd0;
+}
+
+
+.menu a:hover {
+    cursor: pointer;
+    color: #30cfd0;
+}
+
+.marca {
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.marca .apresentacao {
+    font-size: 90px;
+    letter-spacing: 8px;
+    color: black;
+}
+
+.marca .slogan {
+    font-size: 30px;
+    margin-top: -50px;
+    color: black;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;   
+}
+
+.card-text {
+    display: flex;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 15px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    color: #330867;
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+
+.texto-oculto {
+    display: none;
+}
+
+.card:hover {
+    background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    color: black;
+    font-size: 18px;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    padding: 35px 20px;
+    margin-right: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+
+footer {
+    display: flex;
+    margin-top: 100px;
+    height: 300px;
+    color: white;
+    background-color: black;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 0;
+}
+
